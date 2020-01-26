@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Poppins', sans-serif;
+background-color: black;
+}
+.wrapper
+{
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.losange, .losange div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+  .losange {
+    transform: rotate(45deg) translateY(10px);
+    float: right;
+    margin-right: 10%;
+    margin-top: -15%;
+  }
+  .losange .los1 {
+    width: 355px;
+    height: 355px;
+    transform: rotate(-45deg) translateY(-74px);
+  }
+  .losange .los1 img {
+    width: 100%;
+    height: auto;
+  }
+section{
+    padding: 1.5%;
+    height: 300px;
+    background-color: #ffe924;
+    border-radius: 7px;
+    margin-top: 3%;
+}
+.content {
+    margin-top: 3.5%;
+}
+header{
+    height: 76px;
+    padding: 1.5%;
+    border-radius: 7px;
+    background-color: #ffe924;
+}
+header h1
+{
+    float: left;
+    font-family: 'Bowlby One SC', cursive;
+    color: black;
+}
+header nav ul{
+    
+    float: right;
+    padding: 20px;
+}
+header nav ul li{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+header a:hover{
+    color:#fff;
+}
+.title h2{
+    font-family: 'Bowlby One SC', cursive;
+    margin-top: 2%;
+    font-size: 40px;
+    color: black;
+}
+#about h1{
+    font-size: 30px;
+    font-family: 'Bowlby One SC', cursive;
+}
+#about h3{
+    color: black;
+}
+.btn
+{
+    background-color: black;
+    padding-top: 10px;
+    width: 127px;
+    float:left;
+    height: 38px;
+    margin-top: 3%;
+    text-align: center;
+    color: #ffe924;
+}
+.btn:hover
+{
+    background-color: #ffffff;
+    color: black;
+    
+}
+
+#cv
+{
+    height:450px;
+}
+.progress{
+    background-color: black;
+    border:1px solid black ;
+    border-radius: 7px;
+    width: 70%;
+    margin-left: 15%;
+    color: black;
+}
+#formations
+{
+    text-align: center;
+    margin-top: -7px;
+}
+#competences
+{
+    display: none;
+    text-align: center;
+}
+#langues
+{
+    display: none;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Bowlby One SC', cursive;
+}
+#cv
+{
+    text-align: center;
+}
+#cv h1
+{
+    color: black;
+}
+#portfolio
+{
+    text-align: center;
+    height: auto;
+}
+.projets
+{
+    margin-top: auto;
+}
+.projet
+{
+    width: 20%;
+    height: 100px;
+    background-color: grey;
+    display: inline-block;
+}
